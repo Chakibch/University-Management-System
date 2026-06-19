@@ -68,7 +68,7 @@ On launch, `University::loadData()` reads `data.json` and restores all students 
 
 ## UML Diagram
 
-<img width="873" height="1216" alt="photo_2026-06-19_01-41-16" src="https://github.com/user-attachments/assets/217abe2e-8cad-43dc-9dc1-46ceed57e190" />
+<img width="6580" height="8192" alt="Student Information-2026-06-19-161126" src="https://github.com/user-attachments/assets/718750cc-5962-4f5d-ab9a-f31d508ee372" />
 
 
 ## Screenshots 
