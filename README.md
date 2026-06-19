@@ -58,10 +58,23 @@ On launch, `University::loadData()` reads `data.json` and restores all students 
 
 - Qt 6 (Widgets module)
 - C++17 or later
-- Qt Creator (recommended) or `qmake` / `CMake`
+
+## How to Run
+
+1. Open OOP_Project.pro in Qt Creator
+2. Configure a Qt 6 kit
+3. Build the project
+4. Run
+
+5. ## UML Diagram
+
+<img width="873" height="1216" alt="photo_2026-06-19_01-41-16" src="https://github.com/user-attachments/assets/217abe2e-8cad-43dc-9dc1-46ceed57e190" />
+
 
 ## Screenshots 
+
 <img width="1069" height="639" alt="image" src="https://github.com/user-attachments/assets/121ccef4-f0d1-4926-9f98-dccd62f654e8" />
+
 <img width="2101" height="1285" alt="image" src="https://github.com/user-attachments/assets/175fc5ed-810a-4544-85e6-4af9be62ece6" />
 
 ## Authors
