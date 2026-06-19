@@ -66,7 +66,7 @@ On launch, `University::loadData()` reads `data.json` and restores all students 
 3. Build the project
 4. Run
 
-5. ## UML Diagram
+## UML Diagram
 
 <img width="873" height="1216" alt="photo_2026-06-19_01-41-16" src="https://github.com/user-attachments/assets/217abe2e-8cad-43dc-9dc1-46ceed57e190" />
 
