@@ -1,0 +1,2575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dormitory</class>
+ <widget class="QWidget" name="Dormitory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color :rgb(30, 6, 82)</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color : rgb(2, 0, 28);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>70</y>
+      <width>151</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_student_num">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>🏩   Dormitory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string> A</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>151</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_student_num_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>🏩   Dormitory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string> B</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>70</y>
+      <width>151</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_student_num_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>🏩   Dormitory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>260</y>
+      <width>211</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_student_num_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>🏩   Dormitory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_8">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>15</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>260</y>
+      <width>211</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_student_num_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>🏩   Dormitory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_10">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>15</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_student_num_11">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  rgb(2, 0, 28);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+    </property>
+    <property name="text">
+     <string>    Dormitories :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_student_num_12">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+    </property>
+    <property name="text">
+     <string>    5 Dorms</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>781</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(2, 0, 28);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_8">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>70</y>
+       <width>151</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>🏩   Dormitory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_14">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>20</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> A</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="RoomBar_A">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_29">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> floors 4 | Rooms 230</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="StudentBar_A">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_34">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Students :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_35">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Rooms :</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_9">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>70</y>
+       <width>151</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>🏩   Dormitory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_16">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>20</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> B</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_30">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> floors 4 | Rooms 230</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_36">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Students :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_37">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Rooms :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="RoomBar_A_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="StudentBar_A_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_10">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>70</y>
+       <width>141</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>🏩   Dormitory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_18">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>20</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_31">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> floors 4 | Rooms 230</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_38">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Students :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_39">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>86</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Rooms :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="RoomBar_A_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="StudentBar_A_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_11">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>260</y>
+       <width>211</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>🏩   Dormitory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_20">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>15</y>
+        <width>20</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>D</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_32">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> floors 4 | Rooms 230</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_40">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Students :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="RoomBar_A_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_41">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Rooms :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="StudentBar_A_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>115</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_12">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>260</y>
+       <width>211</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(24, 3, 55);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_21">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>🏩   Dormitory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_22">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>15</y>
+        <width>20</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(179, 255, 211);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>E</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_33">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string> floors 4 | Rooms 230</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_42">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Students :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="RoomBar_A_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_student_num_43">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_student_num_29&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;10&lt;/x&gt;
+     &lt;y&gt;130&lt;/y&gt;
+     &lt;width&gt;131&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QPushButton {
+    background-color:rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &amp;quot;Segoe UI&amp;quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} &lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt; floors 4 | Rooms 230&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+      </property>
+      <property name="text">
+       <string> Rooms :</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="StudentBar_A_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_23">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>10</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(2, 0, 28);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>    Dormitories :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_24">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>10</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(24, 3, 55);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string>    5 Dorms</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_num_25">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>40</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color:  rgb(2, 0, 28);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_13">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>33</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(26 ,26 ,26);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_26">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(26 ,26 ,26);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>  Total Capacity : 1150 </string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_14">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>33</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(26 ,26 ,26);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_27">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(26 ,26 ,26);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>Occupied rooms  : 978</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_15">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>33</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame 
+{
+	Background-color:rgb(26 ,26 ,26);
+	border-radius: 10px ;
+	border: 1px solid rgb(137, 125, 171) ;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_student_num_28">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  rgb(26 ,26 ,26);
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+	text-align:left;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}
+
+QPushButton:checked {
+    background-color: #404457;
+} </string>
+      </property>
+      <property name="text">
+       <string>Available rooms  : 172</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

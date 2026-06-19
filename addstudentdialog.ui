@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddStudentDialog</class>
+ <widget class="QDialog" name="AddStudentDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>437</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(67, 67, 67);</string>
+  </property>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 12pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string> Full Name :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 12pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string> Student ID :</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color :rgb(20, 21, 37);
+border: 1px solid rgb(0, 0, 0);
+	border-radius : 17px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="ID">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLineEdit 
+{
+	padding : 5px ;
+	text-font: italic 500 13pt &quot;Segoe UI&quot;;
+	color :  rgb(117, 117, 117);
+	border: 1px solid rgb(127, 127, 127);
+	border-radius : 10px;
+background-color:rgbrgb(25, 26, 48);
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}n}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>eg : 317272710</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FullName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLineEdit 
+{
+	padding : 5px ;
+	text-font: italic 500 13pt &quot;Segoe UI&quot;;
+	color :  rgb(117, 117, 117);
+	border: 1px solid rgb(127, 127, 127);
+	border-radius : 10px;
+background-color:rgbrgb(25, 26, 48);
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}n}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>eg : Chakib Chabane</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AddStudent">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 600 19pt &quot;Segoe UI&quot;;
+color :rgb(188, 191, 213);
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string> Add New Student </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="AcademicYear">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>160</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QComboBox
+{
+	padding : 5px ;
+	text-font: italic 500 13pt &quot;Segoe UI&quot;;
+	color :  rgb(117, 117, 117);
+	border: 1px solid rgb(127, 127, 127);
+	border-radius : 10px;
+background-color:rgbrgb(25, 26, 48);
+}
+QComboBox::drop-down {
+    border: none;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>1st Year</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2nd Year</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3rd Year </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4th Yeaer </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5th Year</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Dormitory">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QComboBox
+{
+	padding : 5px ;
+	text-font: italic 700 19pt &quot;Segoe UI&quot;;
+	color :  rgb(117, 117, 117);
+	border: 1px solid rgb(127, 127, 127);
+	border-radius : 10px;
+background-color:rgbrgb(25, 26, 48);
+}
+QComboBox::drop-down {
+    border: none;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Dorm A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dorm B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dorm C </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dorm D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dorm E</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="Room">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>240</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLineEdit 
+{
+	padding : 5px ;
+	text-font: italic 100 10pt &quot;Segoe UI&quot;;
+	color :  rgb(117, 117, 117);
+	border: 1px solid rgb(127, 127, 127);
+	border-radius : 10px;
+background-color:rgbrgb(25, 26, 48);
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}
+QLineEdit:focus {
+    border: 2px solid #5A5FFF;QLineEdit:focus {
+    border: 2px solid #5A5FFF;
+}n}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>eg : 16</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddStudentButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>300</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2D2F3A;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+   
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Student</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CancelButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>300</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2D2F3A;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+   
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #404457;
+}</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 12pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string> Student Dorm :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>220</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 12pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string> Student Room :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>140</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 12pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string>Academic Year :</string>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_11</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

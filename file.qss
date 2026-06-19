@@ -1,0 +1,92 @@
+/* style.qss */
+
+/* ── App-wide ── */
+QWidget {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+    color: #1a1a2e;
+    background-color: #f4f5f7;
+}
+
+/* ── Sidebar ── */
+#sidebar {
+    background-color: #0f1729;
+    min-width: 210px;
+    max-width: 210px;
+}
+
+#sidebarTitle { font-size: 13px; font-weight: 600; color: #dde2f4; }
+#sidebarSub   { font-size: 10px; color: #3a4870; }
+
+/* ── Nav buttons ── */
+#navButton {
+    background: transparent;
+    color: #6a7898;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 12px;
+}
+#navButton:hover   { background: rgba(255,255,255, 0.04); color: #a0aac8; }
+#navButton:checked { background: #1a2d50; color: #8ba8e8; }
+
+/* ── Top bar ── */
+#topbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8ec;
+    min-height: 48px;
+    max-height: 48px;
+}
+#pageTitle { font-size: 14px; font-weight: 600; color: #111827; }
+
+/* ── Cards ── */
+#card {
+    background-color: #ffffff;
+    border: 1px solid #e8e8ec;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+/* ── Stat value label ── */
+#statValue { font-size: 22px; font-weight: 600; color: #111827; }
+#statLabel { font-size: 11px; color: #9ca3af; }
+
+/* ── Buttons ── */
+#primaryBtn {
+    background-color: #185FA5;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+#primaryBtn:hover   { background-color: #0C447C; }
+#primaryBtn:pressed { background-color: #042C53; }
+
+#secondaryBtn {
+    background-color: #f4f5f7;
+    color: #4b5563;
+    border: 1px solid #e8e8ec;
+    border-radius: 7px;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+#secondaryBtn:hover { background-color: #e8e8ec; }
+
+/* ── Status badges (QLabel) ── */
+#badgeGreen  { background:#E1F5EE; color:#0F6E56; border-radius:9px; padding: 2px 8px; font-size:10px; }
+#badgeAmber  { background:#FAEEDA; color:#633806; border-radius:9px; padding: 2px 8px; font-size:10px; }
+#badgeRed    { background:#FCEBEB; color:#791F1F; border-radius:9px; padding: 2px 8px; font-size:10px; }
+
+/* ── Login page ── */
+#loginPanel  { background-color: #ffffff; }
+#loginTitle  { font-size: 20px; font-weight: 600; color: #111827; }
+#loginInput  {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    background: #ffffff;
+}
+#loginInput:focus { border-color: #185FA5; }

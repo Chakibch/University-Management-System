@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Students</class>
+ <widget class="QWidget" name="Students">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : rgb(2, 0, 28);</string>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-26</x>
+     <y>-4</y>
+     <width>761</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color : rgb(2, 0, 28);</string>
+   </property>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>100</y>
+      <width>431</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget {
+    background-color: #111318;
+    border: none;
+    outline: none;
+    color: #8090a8;
+    font-size: 12px;
+    gridline-color: #161b24;
+
+}
+
+/* Each row */
+QTableWidget::item {
+    padding: 8px;
+    border-bottom: 0.5px solid #161b24;
+}
+
+QTableWidget::item:selected {
+    background-color: #0d1e38;
+    color: #c0cce0;
+}
+
+QTableWidget::item:hover {
+    background-color: #131820;
+}
+
+/* Column headers */
+QHeaderView::section {
+    background-color: #0d1117;
+    color: #3a4050;
+    border: none;
+    border-bottom: 0.5px solid #1e2128;
+    padding: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/* Hide the row numbers on the left */
+QHeaderView::section:vertical {
+    background: transparent;
+    border: none;
+    color: transparent;
+}</string>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustIgnored</enum>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SelectionMode::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectionBehavior::SelectRows</enum>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>63</number>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="AddStudent">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 20px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>        Add Student 🧑🏻‍🎓➕</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RemoveStudent">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 20px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>  Remove Student 🧑🏻‍🎓➖</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

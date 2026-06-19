@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SideBar</class>
+ <widget class="QWidget" name="SideBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-30</y>
+     <width>271</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(12, 0, 51);</string>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 800 7pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>  UDRMS
+  University Dormitory System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>45</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;Terminal&quot;;
+
+color: rgb(85, 255, 255);
+font-weight: bold ;
+</string>
+    </property>
+    <property name="text">
+     <string>ENSIA 
+NHSM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 500 11pt &quot;Segoe UI&quot;;
+
+color: rgb(66, 66, 147);</string>
+    </property>
+    <property name="text">
+     <string>Overview </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_dashboard">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: #rgbQPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: #rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: #rgb(45, 0, 112);
+}(45, 0, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>  🖥️📊 Dashboard </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_students">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>  🧑🏻‍🎓 Students Management</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 500 11pt &quot;Segoe UI&quot;;
+
+color: rgb(66, 66, 147);</string>
+    </property>
+    <property name="text">
+     <string>Manage</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rooms">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>  🛏️ Rooms Management</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_dormitory">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>   🏨 Dormetories Management </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_restaurant">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(8, 0, 65);
+    border-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+    color: white;
+	text-align: left ;
+    font-size: 10px;
+	font: 700 &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(45, 0, 112);
+}
+
+QPushButton:pressed {
+    background-color: rgb(45, 0, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>  🍽️ Restaurant Management </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 500 11pt &quot;Segoe UI&quot;;
+
+color: rgb(66, 66, 147);</string>
+    </property>
+    <property name="text">
+     <string>ENSIA 2025-2026</string>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_11</zorder>
+   <zorder>pushButton_dashboard</zorder>
+   <zorder>pushButton_students</zorder>
+   <zorder>label_12</zorder>
+   <zorder>pushButton_rooms</zorder>
+   <zorder>pushButton_dormitory</zorder>
+   <zorder>label_13</zorder>
+   <zorder>pushButton_restaurant</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

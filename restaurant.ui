@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Restaurant</class>
+ <widget class="QWidget" name="Restaurant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : rgb(2, 0, 28);</string>
+  </property>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 500 9pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+   </property>
+   <property name="text">
+    <string>  Choose Dorm :</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>0</y>
+     <width>761</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>50</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 500 9pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+    </property>
+    <property name="text">
+     <string>Choose Day :</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2D2F3A;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+   
+	font: 700 &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 700 20pt &quot;Segoe UI&quot;;
+color:rgb(7, 0, 37);</string>
+     </property>
+     <property name="text">
+      <string>Breakfast  🥞 : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelBreakfast">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 500 9pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>250</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2D2F3A;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+   
+	font: 700 &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 700 20pt &quot;Segoe UI&quot;;
+color:rgb(7, 0, 37);</string>
+     </property>
+     <property name="text">
+      <string> Lunch 🍔 : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelLunch">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 500 9pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>350</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2D2F3A;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+   
+	font: 700 &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-10</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 700 20pt &quot;Segoe UI&quot;;
+color:rgb(7, 0, 37);</string>
+     </property>
+     <property name="text">
+      <string> Dinner 🥗 :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelDinner">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 500 9pt &quot;Segoe UI&quot;;
+color: rgb(117, 117, 117);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 800 17pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Dormitory Restaurant 🍽️ </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="comboDorm">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>80</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>   Drom A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Dorm B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Dorm C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Dorm D</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Dorm E</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboDay">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>   Sunday </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Monday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Tuesday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Wednesday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Thursday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Friday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   Saturday </string>
+    </property>
+   </item>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>label_10</zorder>
+  <zorder>comboDorm</zorder>
+  <zorder>comboDay</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
