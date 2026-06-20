@@ -28,16 +28,27 @@ Students::Students(QWidget *parent)
     connect(ui->AddStudent, &QPushButton::clicked, this, &Students::onAddClicked);
     connect(ui->RemoveStudent, &QPushButton::clicked, this, &Students::onDeleteClicked);
 
+    connect(ui->searchBar, &QLineEdit::textChanged, this, &Students::refreshTable);
+
     refreshTable();
 }
 
 void Students::refreshTable()
 {
     ui->tableWidget->setRowCount(0);
+    QString filter = ui->searchBar->text().trimmed().toLower();
+
 
     int rowNum = 1;
     for (const StudentInfo &s : University::get()->getAllStudents())
     {
+        if (!filter.isEmpty())
+        {
+            QString name = s.getName().toLower();
+            QString idStr = QString::number(s.getID());
+            if (!name.contains(filter) && !idStr.contains(filter))
+                continue;
+        }
         int row = ui->tableWidget->rowCount();
         ui->tableWidget->insertRow(row);
 
